@@ -1,0 +1,88 @@
+
+.Header{
+    display: flex;
+    background-color: rgb(11,20,22);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px ;
+    width:100%;
+    height: 50px;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid white;
+    z-index: 1000;
+}
+.Left{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+}
+.Left .Logo img{
+    width: 50px;
+    border-radius: 10px;
+    margin-right: 8px;
+    
+}
+.Logo h3{
+    font-size: 25px;
+}
+.Center{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+.Center input{
+    background-color:rgb(26,40,45);
+    width: 100%;
+    padding: 10px 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    color: white;
+}
+.Center i{
+    position: absolute;
+    margin-right: 90%;
+    font-size: 20px;
+}
+.Right{
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Right span{
+    display: flex;
+    align-items: center;
+    background-color:rgb(26,40,45);
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.Right i{
+    margin-right: 10px;
+
+}
+.Right h3{
+    background-color:rgb(150,41,0);
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+}

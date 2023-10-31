@@ -1,0 +1,60 @@
+.Side-Container {
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    text-decoration: none;
+}
+
+.sideNav {
+    width: 250px;
+    background-color: rgb(11, 20, 22);
+    position: sticky;
+    text-align: center;
+    overflow: scroll;
+    list-style: none;
+    z-index: 0;
+
+}
+
+.First {
+    margin-top: 20px;
+
+}
+
+.First li {
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+.First li:hover{
+    transform: scale(1.1);
+    background-color: rgb(26,40,45);
+}
+
+.sideNav .Topics-Menu li {
+    text-decoration: none;
+    
+    flex-grow: 1;
+    text-align: center;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    
+}
+.sideNav .Topics-Menu li:hover{
+    
+    transform: scale(1.1);
+    background-color: rgb(26,40,45);
+    
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
